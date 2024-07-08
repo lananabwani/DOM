@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="container">
+                <p id="Paragraph1">  This is a sample paragraph</p>
+                <input type="text" id="addClass" placeholder="Enter Class Name">
+                <button onclick="addClass()">Add Class</button> 
+    
+                <div class="paragraph-container">
+                    <p id="paragraph1" class="paragraph">This is a first paragraph</p>
+                    <p id="paragraph2" class="paragraph">This is a secound paragraph</p>
+                    <p id="paragraph3" class="paragraph">This is a Third paragraph</p>
+                </div>
+     
+                <div class="button-container">
+                    <button class="button" onclick="toggleVisibility('paragraph1')">Show/hide paragraph 1</button>
+                    <button class="button" onclick="toggleVisibility('paragraph2')">Show/hide paragraph 2</button>
+                    <button class="button" onclick="toggleVisibility('paragraph3')">Show/hide paragraph3</button>
+                </div>
+        </div>
+                <div class="container_button">
+                    <button id="myButton">Click Me</button>
+                </div>
+    
+        <script src="js.js"></script>
+    
+    
+</body>
+</html>
